@@ -1,0 +1,115 @@
+/* So the HTML5 structural tags work in older browsers */
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section {
+	display: block;
+}
+html {
+	background-color: white;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 87.5%;
+	width: 600px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #800000;
+	background-color: #fffded;
+}
+
+header {
+	border-bottom: 3px solid #800000;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background: linear-gradient(30deg,#800000, #fffded, white, #fffded, #800000);
+}
+
+header img {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 1em;
+}
+
+section {
+	padding-left: 12em;
+	padding-right: 12em;
+}
+h1 {
+	color: #800000;
+	margin: 30px;
+	font-size: 150%;
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+}
+
+h2 {
+	margin: 30px;
+	font-style: italic;
+	font-size: 120%;
+	padding-bottom: 0.25em;
+}
+
+a:hover {
+	font-style: italic;	
+}
+p {
+	padding-bottom: 0.5em;
+}
+blockquote {
+	padding-right: 2em;
+	padding-left: 2em;
+	font-style: italic;
+}
+header img {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 0.5em;
+}
+ul {
+	padding-bottom: 1.5em;
+	padding-left: 1.25em;
+}
+li {
+	padding-bottom: 0.35em;
+}
+
+#speakers {
+	border-radius: 10px;
+	border:5px double #800000;
+	border-top: 3px solid #800000;
+	border-right: 5px solid #800000;
+	border-bottom: 6px solid #800000;
+	text-align: center;
+	background-color: white;
+	box-shadow:1px 1px 4px #800000;
+}
+
+.shadow {
+	color: #800000;
+	text-shadow: 4px 3px 4px;
+	border-radius: 20px;
+
+}
+
+section {
+	clear: left;
+	padding-right: 1.2em;
+	padding-left: 1.2em;
+}
+
+footer {
+	border-top: 3px solid #800000;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+footer p {
+	text-align: center;
+}
